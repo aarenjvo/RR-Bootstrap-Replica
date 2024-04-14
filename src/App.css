@@ -36,3 +36,24 @@
     transform: rotate(360deg);
   }
 }
+
+#heroContainer {
+  background-position: right center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-color: #deedd6;
+  background-image: url('https://www.instacart.com/image-server/x428/www.instacart.com/assets/homepage/homepage_background_full_m3_cropped-8d2d286263821da7decd7c61fb1db1eb0e3dec13e0c356277d6d3cb7484c024a.jpg');
+  width: 100%;
+  min-height: 400px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-bottom: 32px;
+}
+
+#backgroundWrap {
+  background-color: #deedd6;
+  background-repeat: none;
+}
